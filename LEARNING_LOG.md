@@ -36,10 +36,31 @@ The 4Ds of AI Fluency — a framework for effective, ethical human-AI collaborat
   - *Deployment Diligence*: taking accountability for verifying and vouching for outputs you use or share
 
 ### How it connects to my work
-Maps directly onto the SDD pilot I'm running on my workstream:
+This gives me a reusable framework for any task I delegate to AI going forward:
 
-- **Delegation**: Deciding which parts of the spec-writing process are good candidates for AI drafting (boilerplate structure, first-pass acceptance criteria) vs. which need to stay human-owned (business context, edge-case judgment, stakeholder trade-offs).
-- **Description**: The quality of AI-assisted specs depends entirely on how well I describe the desired output, the approach, and the tone — this is the actual skill gap most people hit when SDD "doesn't work for them."
-- **Discernment**: Every AI-drafted spec section still goes through my review before it reaches the team — checking not just the output but the reasoning behind it (why it structured acceptance criteria that way).
-- **Diligence**: Being transparent with the team about which parts of a spec were AI-assisted, and taking ownership of the final version regardless of how it was produced — this is the piece I want to be explicit about before proposing SDD as a standard practice.
+- **Delegation**: Decide upfront which parts of a task are good candidates for AI drafting versus which need to stay human-owned (judgment calls, context only I have).
+- **Description**: Output quality depends heavily on how well I describe the desired result, the approach, and the interaction style — not just the end ask.
+- **Discernment**: Every AI-assisted output still needs review before it's used or shared — checking the reasoning behind it, not just the final result.
+- **Diligence**: Being transparent about which parts of any shared work were AI-assisted, and owning the final result regardless of how it was produced.
+
+---
+
+## September 26, 2026 — Claude 101
+
+**Source:** Claude Certified Architect – Foundations prep track (2 of 7)
+**Verification:** https://academy.claude.com/verify/784fdfc319a66f57f49bee51da510bcc
+
+### What it covered
+Foundational concepts of Claude.ai Projects — self-contained workspaces with their own memory, knowledge base, and custom instructions, including how they scale and support team collaboration.
+
+### Key takeaway
+- **Projects** are self-contained workspaces with their own memory, chat history, knowledge base, and instructions — dedicated environments per workstream rather than one undifferentiated chat history.
+- **Project knowledge** lets you upload reference documents once; Claude references them across every chat in that Project, eliminating repeated re-uploading.
+- **Project instructions** set tone, expertise level, and response style at the Project level, applying automatically to every conversation inside it.
+- **Automatic scaling**: as a knowledge base approaches context limits, Claude shifts to searching and retrieving only what's relevant — expanding effective capacity up to 10x without losing response quality.
+- **Team collaboration** (Claude for Work): Projects can be shared so a whole team works from the same context, instructions, and accumulated knowledge.
+
+### How it connects to my work
+Gives me a model for setting up a persistent, configured workspace for any recurring task or topic — knowledge and instructions accumulate over time instead of being re-established in every new chat.
+
 ---
